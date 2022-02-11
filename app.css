@@ -1,0 +1,6 @@
+@import "./css/login.css";
+@import "./css/navbar.css";
+
+:root {
+  --light-gray: #dcdcdc;
+}
