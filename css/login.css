@@ -18,11 +18,13 @@
   align-items: stretch;
   padding: 0.5rem 2rem;
   margin-top: 1.75rem;
+  row-gap: 0.4rem;
 }
 .login-input-text {
   border: 1px solid var(--light-gray);
   width: 90%;
   margin-bottom: 1.5rem;
+  padding: 0.75rem;
 }
 .login-btn {
   display: flex;
