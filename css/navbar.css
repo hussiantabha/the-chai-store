@@ -4,7 +4,11 @@
   align-items: center;
   padding: 0.65rem 0.75rem;
 }
-.nav a {
+.nav-head-link {
+  color: var(--white);
+  margin-right: 0;
+}
+.navigation-link {
   margin-right: 2.25rem;
 }
 .input-text {
