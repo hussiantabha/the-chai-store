@@ -1,5 +1,5 @@
 .login-container {
-  max-width: 700px;
+  max-width: 43.75rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
   margin-top: 1.75rem;
 }
 .login-input-text {
-  border: 1px solid #dcdcdc;
+  border: 1px solid var(--light-gray);
   width: 90%;
   margin-bottom: 1.5rem;
 }
