@@ -12,7 +12,8 @@
 .filter-sidebar {
   grid-area: filter-sidebar;
   height: 100%;
-  background-color: #ede9fe;
+  background-color: var(--light-purple);
+  position: relative;
 }
 /* Filters */
 .filters {
@@ -20,6 +21,7 @@
   flex-direction: column;
   row-gap: 2rem;
   padding: 2rem;
+  position: fixed;
 }
 .filter-category {
   display: flex;
@@ -39,14 +41,14 @@
   flex-wrap: wrap;
   justify-content: space-around;
   row-gap: 1rem;
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 .product-card {
   display: flex;
   max-width: 17rem;
   flex-direction: column;
   row-gap: 9px;
-  border: 1px solid #dcdcdc;
+  border: 1px solid var(--light-gray);
   padding: 1rem 0;
   position: relative;
 }
