@@ -1,8 +1,9 @@
 @import "./css/login.css";
 @import "./css/navbar.css";
 @import "./css/homepage.css";
-
+@import "./css/product.css";
 :root {
   --light-gray: #dcdcdc;
   --white: #fff;
+  --light-purple: #ede9fe;
 }
