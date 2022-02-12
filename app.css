@@ -3,8 +3,10 @@
 @import "./css/homepage.css";
 @import "./css/product.css";
 @import "./css/cart.css";
+@import "./css/wishlist.css";
 :root {
   --light-gray: #dcdcdc;
   --white: #fff;
   --light-purple: #ede9fe;
+  --dark-gray: #4b5563;
 }
