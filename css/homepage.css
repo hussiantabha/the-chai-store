@@ -48,10 +48,11 @@
   margin-top: 1rem;
 }
 .hero-card-img-container {
-  /* border: 1px solid var(--dark-gray); */
+  display: flex;
+  align-items: center;
 }
 .hero-card-img {
-  width: 80%;
+  width: 60%;
   text-align: center;
 }
 .hero-card-content {
@@ -81,5 +82,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
+  }
+  .hero-card-img-container {
+    align-self: center;
   }
 }
