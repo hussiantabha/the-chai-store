@@ -31,6 +31,16 @@
 .filter-category span {
   margin-left: 0.5rem;
 }
+.filter-slider {
+  width: 80%;
+  background-color: aqua;
+}
+.slider-span {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .main-product-container {
   grid-area: main-product-container;
   /* background-color: burlywood; */
@@ -84,4 +94,13 @@
   border-radius: 0.25rem;
   border: 1px solid var(--light-gray);
   width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .product-body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "nav"
+      "main-product-container";
+  }
 }
