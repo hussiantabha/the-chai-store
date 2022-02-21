@@ -27,13 +27,21 @@
                 <span class="badge">2</span>
             </div></a>
         </div>
-        <div class="nav-hamburger"> <i class="fas fa-bars "></i></i></div>
+        <div class="nav-hamburger"> <i class="fas fa-bars hamburger-icon"></i></i></div>
         </div>
     </nav>
     <aside class="filter-sidebar">
     <section class="filters">
         <div>
-            <input type="text" class="input-text-search" placeholder="search Product">
+            <input type="text" class="input-text-search" placeholder="search Product" >
+        </div>
+        <div>
+            <input type="range" min="1" max="100" value="50" class="filter-slider">
+            <div class="slider-span">
+                <span>0</span>
+                <span>50</span>
+                <span>100</span>
+            </div>
         </div>
         <div class="filter-category">
             <h3>Category</h3>
@@ -52,8 +60,8 @@
         </div>
         <div class="filter-category">
             <h3>Sort By</h3>
-            <div> <input type="checkbox"><span>Price - Low to High</span></div>
-            <div> <input type="checkbox"><span>Price - High to Low</span></div>
+            <div> <input type="radio" name="value"><span>Price - Low to High</span></div>
+            <div> <input type="radio" name="value"><span>Price - High to Low</span></div>
         </div>
     </section>
     </aside>
@@ -69,8 +77,8 @@
                     </div>
             </div>
                 <div class="card-btn-container">
-                    <a href="#" class="btn btn-primary-outline">Add to Cart</a>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary-outline">Add to Cart</a>
+                    <a href="./cart.html" class="btn btn-primary">Buy Now</a>
             </div>
             <button class="btn-primary card-like-btn"><i class="fas fa-heart"></i></button>
             </div>
@@ -84,8 +92,8 @@
                     </div>
             </div>
                 <div class="card-btn-container">
-                    <a href="#" class="btn btn-primary-outline">Add to Cart</a>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary-outline">Add to Cart</a>
+                    <a href="./cart.html" class="btn btn-primary">Buy Now</a>
             </div>
             <button class="btn-primary card-like-btn"><i class="fas fa-heart"></i></button>
             </div>
@@ -99,8 +107,8 @@
                     </div>
             </div>
                 <div class="card-btn-container">
-                    <a href="#" class="btn btn-primary-outline">Add to Cart</a>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary-outline">Add to Cart</a>
+                    <a href="./cart.html" class="btn btn-primary">Buy Now</a>
             </div>
             <button class="btn-primary card-like-btn"><i class="fas fa-heart"></i></button>
             </div>
@@ -114,8 +122,8 @@
                     </div>
             </div>
                 <div class="card-btn-container">
-                    <a href="#" class="btn btn-primary-outline">Add to Cart</a>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary-outline">Add to Cart</a>
+                    <a href="./cart.html" class="btn btn-primary">Buy Now</a>
             </div>
             <button class="btn-primary card-like-btn"><i class="fas fa-heart"></i></button>
             </div>
@@ -129,8 +137,8 @@
                     </div>
             </div>
                 <div class="card-btn-container">
-                    <a href="#" class="btn btn-primary-outline">Add to Cart</a>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary-outline">Add to Cart</a>
+                    <a href="./cart.html" class="btn btn-primary">Buy Now</a>
             </div>
             <button class="btn-primary card-like-btn"><i class="fas fa-heart"></i></button>
             </div>
@@ -144,8 +152,8 @@
                     </div>
             </div>
                 <div class="card-btn-container">
-                    <a href="#" class="btn btn-primary-outline">Add to Cart</a>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary-outline">Add to Cart</a>
+                    <a href=./cart.html#" class="btn btn-primary">Buy Now</a>
             </div>
             <button class="btn-primary card-like-btn"><i class="fas fa-heart"></i></button>
             </div>
@@ -159,8 +167,8 @@
                     </div>
             </div>
                 <div class="card-btn-container">
-                    <a href="#" class="btn btn-primary-outline">Add to Cart</a>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary-outline">Add to Cart</a>
+                    <a href="./cart.html" class="btn btn-primary">Buy Now</a>
             </div>
             <button class="btn-primary card-like-btn"><i class="fas fa-heart"></i></button>
             </div>
@@ -174,8 +182,8 @@
                     </div>
             </div>
                 <div class="card-btn-container">
-                    <a href="#" class="btn btn-primary-outline">Add to Cart</a>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary-outline">Add to Cart</a>
+                    <a href="./cart.html" class="btn btn-primary">Buy Now</a>
             </div>
             <button class="btn-primary card-like-btn"><i class="fas fa-heart"></i></button>
             </div>
@@ -186,5 +194,6 @@
       src="https://kit.fontawesome.com/51bc44d522.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../app.js"></script>
   </body>
 </html>
